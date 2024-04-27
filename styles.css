@@ -1,3 +1,5 @@
+
+
 a, a:visited {
     text-decoration: none;
     color: black;
@@ -121,12 +123,19 @@ body {
     height: 630px; 
 }
 
+.container {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 #features {
-    width: 80vw;
     /* max-width: 1000px; */
-    display: flex;
-    justify-content: center;
+    display: block;
+    /* justify-content: center; */
     font-family: cursive;
+    
 }
 
 .icon-container {
@@ -143,6 +152,8 @@ body {
     margin-left: 4rem;
 }
 
-.container {
+
+
+.grid {
     display: flex;
 }
