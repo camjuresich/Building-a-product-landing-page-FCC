@@ -1,0 +1,148 @@
+a, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+    
+}
+
+#header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+}
+
+#header-img {
+    height: 4rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#logo {
+    width: 60vw;
+    display: flex;
+}
+
+#logo-text {
+
+    font-family: cursive;
+    font-size: 3rem;
+    margin-left: 30px;
+    margin-top: .8rem;
+    margin-bottom: 0;
+    /* width: fit-content; */
+}
+
+#nav-bar {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#nav-buttons {
+    width: 40vw;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-family: cursive;
+}
+
+#mailing-list {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submit {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin-top: 1.2rem;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+#submit:hover,
+#submit:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+#submit:hover {
+  transform: translateY(-1px);
+}
+
+#submit:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+#product-video {
+    display: flex;
+    justify-content: center;
+}
+
+#video {
+    width: 1120px;
+    height: 630px; 
+}
+
+#features {
+    width: 80vw;
+    /* max-width: 1000px; */
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.icon-container {
+    display: flex;
+    width: 5vw;
+}
+
+.icon {
+    width: 4rem;
+
+}
+
+.description {
+    margin-left: 4rem;
+}
+
+.container {
+    display: flex;
+}
