@@ -1,5 +1,26 @@
+@media (max-width: 750px) {
+    #logo-text {
+        font-size: 2rem;
 
+    }
+    #nav-buttons {
+        flex-direction: column;
+    }
+}
+@media (min-width: 751px) {
 
+    #logo-text {
+    
+        font-family: cursive;
+        font-size: 3rem;
+        margin-left: 30px;
+        margin-top: .8rem;
+        margin-bottom: 0;
+        margin-top: .8rem;
+
+        /* width: fit-content; */
+    }
+}
 a, a:visited {
     text-decoration: none;
     color: black;
@@ -15,6 +36,8 @@ body {
     width: 100%;
     display: flex;
     /* position: fixed; */
+    background-color: #aaaaaa;
+    position: fixed;
 }
 
 #header-img {
@@ -31,9 +54,7 @@ body {
 #logo-text {
 
     font-family: cursive;
-    font-size: 3rem;
     margin-left: 30px;
-    margin-top: .8rem;
     margin-bottom: 0;
     /* width: fit-content; */
 }
@@ -60,6 +81,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 94px;
 }
 
 #form {
@@ -68,7 +90,7 @@ body {
     align-items: center;
 }
 
-#submit {
+.btn {
   align-items: center;
   background-clip: padding-box;
   background-color: #fa6400;
@@ -87,7 +109,7 @@ body {
   margin-top: 1.2rem;
   min-height: 3rem;
   padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-  position: relative;
+  /* position: relative; */
   text-decoration: none;
   transition: all 250ms;
   user-select: none;
@@ -97,17 +119,17 @@ body {
   width: auto;
 }
 
-#submit:hover,
-#submit:focus {
+.btn:hover,
+.btn:focus {
   background-color: #fb8332;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
-#submit:hover {
+.btn:hover {
   transform: translateY(-1px);
 }
 
-#submit:active {
+.btn:active {
   background-color: #c85000;
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
@@ -156,4 +178,38 @@ body {
 
 .grid {
     display: flex;
+}
+
+#pricing {
+    display: flex;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: calc(85%/3);
+    font-family: cursive;
+}
+
+.product ol {
+    list-style-type: none;
+    margin: 15px 0;
+    padding: 0%;
+}
+
+.level {
+    background-color: #aaaaaa;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 2rem;
 }
